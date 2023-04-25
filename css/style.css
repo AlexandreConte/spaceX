@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+*::selection, *:checked {
+  background-color: #ff0043 !important;
+  border: 0;
+  color: #fff;
+}
+
+body {
+  background-image: url("../../images/backgroundLp.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  color: white;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.container1 {
+  background-color: rgba(19, 18, 18, 0.8);
+  height: auto;
+  padding: 0.4rem;
+  width: calc(100% - 20px);
+  border-radius: 10px;
+}
+
+.topLogo {
+  width: 300px;
+  margin: 1.6rem 0 2rem 0;
+}
+
+.paragraph {
+  margin: 8px 0;
+}
+
+.btnSend {
+  color: #ff0043;
+  border: 1px solid #ff0043;
+  transition: 0.3s all ease-in-out;
+}
+.btnSend:hover {
+  background-color: #ff0043;
+  color: #fff;
+}
+
+@media (min-width: 600px) {
+  .container1 {
+    width: 600px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

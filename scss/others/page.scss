@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+  &::selection,
+  &:checked {
+    background-color: $button-color !important;
+    border: 0;
+    color: #fff;
+  }
+}
+
+body {
+  background-image: url("../../images/backgroundLp.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  color: white;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.container1 {
+  background-color: $background-color;
+  height: auto;
+  padding: 0.4rem;
+  width: calc(100% - 20px);
+  border-radius: 10px;
+}
+
+.topLogo {
+  width: 300px;
+  margin: 1.6rem 0 2rem 0;
+}
+
+.paragraph {
+  margin: 8px 0;
+}
+
+.btnSend {
+  color: $button-color;
+  border: 1px solid $button-color;
+  transition: 0.3s all ease-in-out;
+
+  &:hover {
+    background-color: $button-color;
+    color: #fff;
+  }
+}
+
+@media (min-width: 600px) {
+  .container1 {
+    width: 600px;
+  }
+}
